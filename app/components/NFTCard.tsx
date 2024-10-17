@@ -44,7 +44,7 @@ const NFTCard = () => {
               </div>
               <div className="flex items-center">
               <div className="border border-white rounded-full mr-4">
-              <Image src='/frontend-mentor-nft-preview-card-component/public/images/image-avatar.png' width={33} height={33} alt='avatar image' />
+              <Image src='/images/image-avatar.png' width={33} height={33} alt='avatar image' />
               </div>
               <p className="text-[#8BACD9] font-extralight mr-1">Creation of</p><p className="text-white font-extralight"><a className="hover:text-[#00FFF8]" href='#'>Jules Wyvern</a></p>
               </div>

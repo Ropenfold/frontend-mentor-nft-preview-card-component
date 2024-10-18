@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    images: {
+        domains: [frontend-mentor-nft-preview-card-component]
+    }
+};
 
 export default nextConfig;

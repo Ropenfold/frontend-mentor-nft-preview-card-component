@@ -5,7 +5,7 @@ const nextConfig = {
   output: 'export',
   reactStrictMode: true, 
     images: {
-        domains: ['frontend-mentor-nft-preview-card-component.com']
+        domains: ['frontend-mentor-nft-preview-card-component']
     }
 };
 

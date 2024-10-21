@@ -16,7 +16,7 @@ const NFTCard = () => {
     />
 
     <div className="absolute inset-0 bg-cyan-500 bg-opacity-50 opacity-0 hover:opacity-100 transition-opacity duration-300 rounded-lg z-10 flex items-center justify-center">
-      <Image src="/frontend-mentor-nft-preview-card-component/img/icon-view.svg" alt="View Icon" width={40} height={40} /></div>
+      <Image src="/img/icon-view.svg" alt="View Icon" width={40} height={40} /></div>
 
   </div>
           
@@ -29,11 +29,11 @@ const NFTCard = () => {
               <p className="text-[#8BACD9] text-l font-extralight mb-6">Our Equilibrium collection promotes balance and calm.</p>
               <div className="flex w-full">
               <div className="flex w-full justify-start items-center">
-                  <Image className='mr-2' src='/frontend-mentor-nft-preview-card-component/img/icon-ethereum.svg' width={11} height={18} alt='ethereum icon'/>
+                  <Image className='mr-2' src='/img/icon-ethereum.svg' width={11} height={18} alt='ethereum icon'/>
                   <div className="flex text-[#00FFF8] w-full"><p>0.041 ETH</p>
               </div>
               <div className="flex w-full justify-end items-center">
-              <Image className='mr-2' src='/frontend-mentor-nft-preview-card-component/img/icon-clock.svg' width={17} height={4} alt='clock icon' />
+              <Image className='mr-2' src='/img/icon-clock.svg' width={17} height={4} alt='clock icon' />
               <p className="text-[#8BACD9] font-extralight">3 days left</p>
               </div>
               </div>
@@ -44,7 +44,7 @@ const NFTCard = () => {
               </div>
               <div className="flex items-center">
               <div className="border border-white rounded-full mr-4">
-              <Image src='/frontend-mentor-nft-preview-card-component/img/image-avatar.png' width={33} height={33} alt='avatar image' />
+              <Image src='/img/image-avatar.png' width={33} height={33} alt='avatar image' />
               </div>
               <p className="text-[#8BACD9] font-extralight mr-1">Creation of</p><p className="text-white font-extralight"><a className="hover:text-[#00FFF8]" href='#'>Jules Wyvern</a></p>
               </div>

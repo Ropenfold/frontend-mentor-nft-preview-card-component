@@ -29,7 +29,7 @@ const NFTCard = () => {
               <p className="text-[#8BACD9] text-l font-extralight mb-6">Our Equilibrium collection promotes balance and calm.</p>
               <div className="flex w-full">
               <div className="flex w-full justify-start items-center">
-                  <Image className='mr-2' src='/frontend-mentor-nft-preview-card-component/frontend-mentor-nft-preview-card-component/img/icon-ethereum.svg' width={11} height={18} alt='ethereum icon'/>
+                  <Image className='mr-2' src='/frontend-mentor-nft-preview-card-component/img/icon-ethereum.svg' width={11} height={18} alt='ethereum icon'/>
                   <div className="flex text-[#00FFF8] w-full"><p>0.041 ETH</p>
               </div>
               <div className="flex w-full justify-end items-center">
@@ -44,7 +44,7 @@ const NFTCard = () => {
               </div>
               <div className="flex items-center">
               <div className="border border-white rounded-full mr-4">
-              <Image src='/img/image-avatar.png' width={33} height={33} alt='avatar image' />
+              <Image src='/frontend-mentor-nft-preview-card-component/img/image-avatar.png' width={33} height={33} alt='avatar image' />
               </div>
               <p className="text-[#8BACD9] font-extralight mr-1">Creation of</p><p className="text-white font-extralight"><a className="hover:text-[#00FFF8]" href='#'>Jules Wyvern</a></p>
               </div>

@@ -1,28 +1,17 @@
-// next.config.mjs
-
-// Detect if running on GitHub Actions
-const isGithubActions = process.env.GITHUB_ACTIONS || false;
-
-let assetPrefix = '';
-let basePath = '';
-
-if (isGithubActions) {
-  // Get the repository name for use as the base path and asset prefix
-  const repo = process.env.GITHUB_REPOSITORY.replace(/.*?\//, '');
-  assetPrefix = `/${repo}/`;
-  basePath = `/${repo}`;
-}
-
+/**
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-  assetPrefix, // Use assetPrefix determined by GitHub environment
-  basePath,    // Use basePath determined by GitHub environment
-  output: 'export',  // Enable static export
-  reactStrictMode: true, // Optional, but recommended for debugging
-
-  images: {
-    unoptimized: true, // Disable Next.js image optimization for static export
-  },
-};
-
-// Use `export default` in ES module syntax
-export default nextConfig;
+  output: 'export',
+ 
+  // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
+  // trailingSlash: true,
+ 
+  // Optional: Prevent automatic `/me` -> `/me/`, instead preserve `href`
+  // skipTrailingSlashRedirect: true,
+ 
+  // Optional: Change the output directory `out` -> `dist`
+  // distDir: 'dist',
+}
+ 
+export default nextConfig

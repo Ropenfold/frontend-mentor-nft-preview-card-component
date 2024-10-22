@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+![Screenshot 2024-10-22 at 10 33 00](https://github.com/user-attachments/assets/a76ae206-3d76-4098-8379-30d2918e17a7)
 
-## Getting Started
 
-First, run the development server:
+## Background
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is a challenge completed on Front End Mentor as I'm keen to start building things again from a greenfield perspective
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Solution retrospective
+What are you most proud of, and what would you do differently next time?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+I'm particularly proud of the responsiveness of this page and it was good to reintroduce myself to css. I would potentially use sass or tailwind in future projects.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What challenges did you encounter, and how did you overcome them?
 
-## Learn More
+I only had a few challenges. Initially the switch to mobile gave me some issues until I understood the @media concepts in css. I also had some issues with github pages, in particular the image basepaths but thankfully I worked these out looking online.
 
-To learn more about Next.js, take a look at the following resources:
+## What specific areas of your project would you like help with?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+I'm happy with my project as it is.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This can been seen at [this githubpages site](https://ropenfold.github.io/frontend-mentor-nft-preview-card-component/)

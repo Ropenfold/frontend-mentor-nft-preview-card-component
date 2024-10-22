@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+// next.config.mjs
 
 // Detect if running on GitHub Actions
 const isGithubActions = process.env.GITHUB_ACTIONS || false;
@@ -24,4 +24,5 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+// Use `export default` in ES module syntax
+export default nextConfig;

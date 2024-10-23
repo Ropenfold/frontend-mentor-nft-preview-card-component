@@ -18,4 +18,4 @@ The only challenge I really had was deploying this!!! Github pages is a tough de
 
 I'm happy with the outcome.
 
-This can been seen at [this githubpages site](https://ropenfold.github.io/frontend-mentor-nft-preview-card-component/)
+This can been seen at [this githubpages site](https://ropenfold.github.io/frontend-mentor-product-list-with-cart/)
